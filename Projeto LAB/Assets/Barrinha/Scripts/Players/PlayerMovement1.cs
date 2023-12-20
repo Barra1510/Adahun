@@ -117,10 +117,11 @@ public class PlayerMovement1 : MonoBehaviour
             moveDirection.y = input.y;
             //controller.velocity = new Vector2(moveDirection.x * speed * Time.deltaTime, 0);        
             playerVelocity.y += gravity * Time.deltaTime;
-
+            if (playerVelocity.y < 0)
+                playerVelocity.y = 0;
             if (IsGrounded())
             { 
-                controller.velocity = new Vector2(moveDirection.x * speed * Time.deltaTime, playerVelocity.y * Time.deltaTime);
+                controller.velocity = new Vector2(moveDirection.x * speed * Time.deltaTime, playerVelocity.y);
                 //Crouch
                 if (input.y < 0)                
                     controller.mass = 100;                
@@ -137,7 +138,7 @@ public class PlayerMovement1 : MonoBehaviour
             if (!isRapel)
             { 
                 controller.mass = 1;
-                playerVelocity.y = Mathf.Sqrt(jumpHeight * -3 * gravity);
+                playerVelocity.y = jumpHeight;
             }
         }
     }
