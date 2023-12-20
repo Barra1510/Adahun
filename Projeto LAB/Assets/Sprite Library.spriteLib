@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Obi-comum
+    m_Hash: 207831693
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Obi-comum_0
+      m_Hash: 215804177
+      m_Sprite: {fileID: -1361949098, guid: 4ff952e4083e16b23a31f232c9d4a2d5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1361949098, guid: 4ff952e4083e16b23a31f232c9d4a2d5, type: 3}
+    - m_Name: Obi-comum_1
+      m_Hash: 1004263815
+      m_Sprite: {fileID: -839359175, guid: 4ff952e4083e16b23a31f232c9d4a2d5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -839359175, guid: 4ff952e4083e16b23a31f232c9d4a2d5, type: 3}
+    - m_Name: Obi-comum_2
+      m_Hash: 584222781
+      m_Sprite: {fileID: -1866048253, guid: 4ff952e4083e16b23a31f232c9d4a2d5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1866048253, guid: 4ff952e4083e16b23a31f232c9d4a2d5, type: 3}
+    - m_Name: Obi-comum_3
+      m_Hash: 366327979
+      m_Sprite: {fileID: 1512800907, guid: 4ff952e4083e16b23a31f232c9d4a2d5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1512800907, guid: 4ff952e4083e16b23a31f232c9d4a2d5, type: 3}
+    - m_Name: Obi-comum_4
+      m_Hash: 196160776
+      m_Sprite: {fileID: 2114451272, guid: 4ff952e4083e16b23a31f232c9d4a2d5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2114451272, guid: 4ff952e4083e16b23a31f232c9d4a2d5, type: 3}
+    - m_Name: Obi-comum_5
+      m_Hash: 1018568094
+      m_Sprite: {fileID: -1552150449, guid: 4ff952e4083e16b23a31f232c9d4a2d5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1552150449, guid: 4ff952e4083e16b23a31f232c9d4a2d5, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 6
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638386879332643570
+  m_Version: 1
