@@ -22,6 +22,10 @@ public class GM : MonoBehaviour
     [SerializeField] GameObject pl1, pl2;
     [SerializeField] playerSelected plSelected;
 
+    private void Awake()
+    {
+        sm = GameObject.Find("SoundManager").GetComponent<SoundManager>();
+    }
     private void Start()
     {
         sm.Stop("Menu");
