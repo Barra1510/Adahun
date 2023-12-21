@@ -27,6 +27,7 @@ public class GM : MonoBehaviour
     public int coleta = 0;
 
     [SerializeField] TextMeshProUGUI txt;
+    
 
     private void Awake()
     {

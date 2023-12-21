@@ -10,11 +10,16 @@ public class OxossiScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            sm = GameObject.Find("SoundManager").GetComponent<SoundManager>();
-            sm.Stop("Fase1");
-            sm.Play("Fase2");
-            lvl.ChangePosition(1);
-            lvl.TypeOfGame(true);
+            Fase2();
         }
     } 
+
+    public void Fase2()
+    {
+        sm = GameObject.Find("SoundManager").GetComponent<SoundManager>();
+        sm.Stop("Fase1");
+        sm.Play("Fase2");
+        lvl.ChangePosition(1);
+        lvl.TypeOfGame(true);
+    }
 }
