@@ -43,6 +43,7 @@ public class PlayerMovement1 : MonoBehaviour
     [Header("GameManager")]
     [SerializeField] GM gm;
 
+    SpriteRenderer sr;
     void Awake()
     {
         playerInput = new PlayerActions();
@@ -69,7 +70,8 @@ public class PlayerMovement1 : MonoBehaviour
 
     void Start()
     {
-        controller = GetComponent<Rigidbody2D>();        
+        controller = GetComponent<Rigidbody2D>();    
+        sr= GetComponent<SpriteRenderer>();
     }
 
     public bool IsGrounded()
@@ -127,6 +129,15 @@ public class PlayerMovement1 : MonoBehaviour
                     controller.mass = 100;                
                 else
                     controller.mass = 1;
+
+                if(input.x > 0)
+                {
+                    sr.flipX = true;
+                }
+                else if(input.x < 0)
+                {
+                    sr.flipX = false;
+                }
             }
             controller.velocity = new Vector2(moveDirection.x * speed * Time.deltaTime, controller.velocity.y);
         }

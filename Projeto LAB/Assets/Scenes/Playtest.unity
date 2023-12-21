@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Follow: {fileID: 3362778769901355971}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 5
+    OrthographicSize: 4
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -321,7 +321,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -11377,7 +11377,7 @@ GameObject:
   m_Layer: 0
   m_Name: TrackPlayers
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -11389,9 +11389,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4323218574311358671}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.51, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.248, z: 0}
+  m_LocalScale: {x: 0.39065883, y: 0.43491498, z: 0.43491498}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8277499483550664197}
@@ -11490,7 +11490,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5b711f4d0325cc44a8df84c5443b9e91, type: 3}
   m_Color: {r: 0.9528302, g: 0.20225172, b: 0.20225172, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11535,7 +11535,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.49999997
+  m_Radius: 0.24
 --- !u!232 &2747827773839071433
 DistanceJoint2D:
   m_ObjectHideFlags: 0
@@ -11597,7 +11597,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1bf594cb8044d9e489b4c44c6260bd45, type: 3}
   m_Color: {r: 0.92975175, g: 0.9433962, b: 0.29814878, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11954,7 +11954,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.49999997
+  m_Radius: 0.24
 --- !u!50 &6668723904108554921
 Rigidbody2D:
   serializedVersion: 4
@@ -12043,7 +12043,7 @@ Transform:
   m_GameObject: {fileID: 8168237948792946195}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.498, z: 0}
+  m_LocalPosition: {x: 0, y: -0.251, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12075,7 +12075,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.143424, y: 0.9124284, z: 9.858485}
-  m_LocalScale: {x: 0.66412, y: 0.66412, z: 0.66412}
+  m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1580464602299960030}
@@ -12147,8 +12147,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.22342396, y: 0.9024284, z: 9.858485}
-  m_LocalScale: {x: 0.66412, y: 0.66412, z: 0.66412}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.7000002, y: 1.7000002, z: 1.7000002}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8039764345665064947}
   m_Father: {fileID: 7039306374478193482}

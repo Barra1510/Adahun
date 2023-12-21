@@ -33,19 +33,19 @@ public class GM : MonoBehaviour
         if(plSelected == playerSelected.Player1)
         {
             pl1.GetComponent<SpriteRenderer>().color = Color.green;
-            pl2.GetComponent<SpriteRenderer>().color = Color.yellow;
+            pl2.GetComponent<SpriteRenderer>().color = Color.white;
         }
         
         if(plSelected == playerSelected.Player2)
         {
-            pl1.GetComponent<SpriteRenderer>().color = Color.red;
+            pl1.GetComponent<SpriteRenderer>().color = Color.white;
             pl2.GetComponent<SpriteRenderer>().color = Color.green;
         }
 
         if (plSelected == playerSelected.none)
         {
-            pl1.GetComponent<SpriteRenderer>().color = Color.red;
-            pl2.GetComponent<SpriteRenderer>().color = Color.yellow;
+            pl1.GetComponent<SpriteRenderer>().color = Color.white;
+            pl2.GetComponent<SpriteRenderer>().color = Color.white;
         }
 
     }
