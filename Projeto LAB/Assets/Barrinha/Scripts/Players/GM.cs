@@ -15,9 +15,18 @@ public class GM : MonoBehaviour
     {
         Player1, Player2, none
     }
+
+    [Header("SoundManager")]
+    [SerializeField] SoundManager sm;
     [Header("Players")]
     [SerializeField] GameObject pl1, pl2;
     [SerializeField] playerSelected plSelected;
+
+    private void Start()
+    {
+        sm.Stop("Menu");
+        sm.Play("Fase1");
+    }
 
     private void Update()
     {
