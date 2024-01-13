@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GM : MonoBehaviour
@@ -20,6 +21,7 @@ public class GM : MonoBehaviour
 
     [Header("SoundManager")]
     [SerializeField] SoundManager sm;
+    [SerializeField] string soundChoice;    
     [Header("Players")]
     [SerializeField] GameObject pl1, pl2;
     [SerializeField] playerSelected plSelected;
@@ -37,7 +39,7 @@ public class GM : MonoBehaviour
     {
         
         sm.Stop("Menu");
-        sm.Play("Fase1");
+        sm.Play(soundChoice);
     }
 
     private void Update()
@@ -63,4 +65,9 @@ public class GM : MonoBehaviour
 
     }
 
+    public void ChangeScene(string scene)
+    {
+        sm.Stop(soundChoice);
+        SceneManager.LoadScene(scene);
+    }
 }

@@ -9,21 +9,16 @@ public class LevelManager : MonoBehaviour
     [SerializeField] Transform playersPos;
     [SerializeField] GameObject[] players;
     [SerializeField] GameObject rope;
-    void Start()
-    {
-        ChangePosition(0);
-        TypeOfGame(false);
-    } 
+    [SerializeField] bool tied;
 
-    public void ChangePosition(int i)
+    private void Start()
     {
-        Debug.Log("foi");
-        playersPos.transform.position = initialPos[i].transform.position;
+        TypeOfGame();
     }
 
-    public void TypeOfGame(bool estaPresa)
-    {
-        if(estaPresa)
+    public void TypeOfGame()
+    {        
+        if(tied)
         {
             for(int i = 0; i < players.Length; i++) 
             {

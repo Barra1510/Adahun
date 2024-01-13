@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/BarraMenu.unity
     guid: 61fc5b45246a82f4581aeef3768503f1
   - enabled: 1
-    path: Assets/Scenes/Playtest.unity
+    path: Assets/Scenes/LVL1.unity
     guid: a5a5331848b9cf844911f777f4a70a0e
+  - enabled: 1
+    path: Assets/Scenes/LVL2.unity
+    guid: e535b689199db4f40a672a8f6799a676
   m_configObjects: {}

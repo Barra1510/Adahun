@@ -18,8 +18,6 @@ public class OxossiScript : MonoBehaviour
     {
         sm = GameObject.Find("SoundManager").GetComponent<SoundManager>();
         sm.Stop("Fase1");
-        sm.Play("Fase2");
-        lvl.ChangePosition(1);
-        lvl.TypeOfGame(true);
+        sm.Play("Fase2");       
     }
 }
