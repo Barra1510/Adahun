@@ -161,6 +161,14 @@ public class PlayerMovement1 : MonoBehaviour
             //playerVelocity.y += gravity * Time.deltaTime;
             moveDirection.x = input.x;
             controller.velocity = new Vector2(moveDirection.x * rapelSpeed / 2 * Time.deltaTime, controller.velocity.y);
+            if (input.x > 0)
+            {
+                sr.flipX = true;
+            }
+            else if (input.x < 0)
+            {
+                sr.flipX = false;
+            }
         }
     }
 
