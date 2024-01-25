@@ -14,6 +14,11 @@ public class Coletaveis : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {            
+            if(this.gameObject.name == "Obi Golden")
+            {
+                gm.coleta+=10;
+                Destroy(this.gameObject);
+            }
             gm.coleta++;
             Destroy(this.gameObject);
         }
