@@ -565,7 +565,7 @@ Transform:
   m_GameObject: {fileID: 703119904}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.2580957, y: 3.96352, z: 10.070358}
+  m_LocalPosition: {x: 7.2580957, y: 9.8, z: 10.070358}
   m_LocalScale: {x: 1.865, y: 2.4121, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1093,7 +1093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44c18d42fcac1f029af9167f0c26319a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParallaxEffect: 0.6
+  ParallaxEffect: 0.2
 --- !u!1 &1108226858
 GameObject:
   m_ObjectHideFlags: 0
@@ -16330,7 +16330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44c18d42fcac1f029af9167f0c26319a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParallaxEffect: 0.5
+  ParallaxEffect: 0.3
 --- !u!1 &1277585878
 GameObject:
   m_ObjectHideFlags: 0
@@ -16783,7 +16783,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Fase2
     clip: {fileID: 8300000, guid: 715b4a73fa34df8438bf31888de80fe8, type: 3}
-    volume: 0.57
+    volume: 0.132
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -17430,7 +17430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44c18d42fcac1f029af9167f0c26319a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParallaxEffect: -0.7
+  ParallaxEffect: -0.5
 --- !u!1 &1922644105
 GameObject:
   m_ObjectHideFlags: 0
