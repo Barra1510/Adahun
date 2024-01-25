@@ -13,6 +13,6 @@ public class CameraScript : MonoBehaviour
     {
         float distX = (player1.transform.position.x + player2.transform.position.x) / 2;
         float distY = (player1.transform.position.y + player2.transform.position.y) / 2;
-        tracker.transform.position = new Vector2(distX, distY);   
+        tracker.transform.position = new Vector2(distX, distY - 0.3f);   
     }
 }
