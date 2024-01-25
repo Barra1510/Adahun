@@ -687,6 +687,7 @@ GameObject:
   m_Component:
   - component: {fileID: 703119905}
   - component: {fileID: 703119906}
+  - component: {fileID: 703119907}
   m_Layer: 0
   m_Name: BG
   m_TagString: Untagged
@@ -703,7 +704,7 @@ Transform:
   m_GameObject: {fileID: 703119904}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.2580957, y: 3.96352, z: 10.070358}
+  m_LocalPosition: {x: 7.2580957, y: 9.8, z: 10.070358}
   m_LocalScale: {x: 1.865, y: 2.4121, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -763,6 +764,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &703119907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703119904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c18d42fcac1f029af9167f0c26319a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParallaxEffect: 0
 --- !u!1 &711192228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1360,6 +1374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1070785763}
   - component: {fileID: 1070785764}
+  - component: {fileID: 1070785765}
   m_Layer: 0
   m_Name: Sombra 1
   m_TagString: Untagged
@@ -1436,6 +1451,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1070785765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070785762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c18d42fcac1f029af9167f0c26319a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParallaxEffect: 0.2
 --- !u!1 &1108226858
 GameObject:
   m_ObjectHideFlags: 0
@@ -17401,6 +17429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1222716158}
   - component: {fileID: 1222716159}
+  - component: {fileID: 1222716160}
   m_Layer: 0
   m_Name: Sombra 2
   m_TagString: Untagged
@@ -17477,6 +17506,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1222716160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222716157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c18d42fcac1f029af9167f0c26319a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParallaxEffect: 0.3
 --- !u!1 &1277585878
 GameObject:
   m_ObjectHideFlags: 0
@@ -17923,13 +17965,13 @@ MonoBehaviour:
   sounds:
   - name: Fase1
     clip: {fileID: 8300000, guid: 51e650b95f506334e9d950a1319ba637, type: 3}
-    volume: 1
+    volume: 0.647
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Fase2
     clip: {fileID: 8300000, guid: 715b4a73fa34df8438bf31888de80fe8, type: 3}
-    volume: 1
+    volume: 0.132
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -18230,6 +18272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1873175853}
   - component: {fileID: 1873175854}
+  - component: {fileID: 1873175855}
   m_Layer: 0
   m_Name: Arvores
   m_TagString: Untagged
@@ -18246,7 +18289,7 @@ Transform:
   m_GameObject: {fileID: 1873175852}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.6819038, y: 1.4735184, z: 10.070358}
+  m_LocalPosition: {x: -1.6819038, y: 1.46, z: 10.070358}
   m_LocalScale: {x: 2.443933, y: 2.443933, z: 2.443933}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18306,6 +18349,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1873175855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873175852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c18d42fcac1f029af9167f0c26319a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParallaxEffect: -0.5
 --- !u!1 &1922644105
 GameObject:
   m_ObjectHideFlags: 0
