@@ -19,7 +19,7 @@ public class PlayerMovement1 : MonoBehaviour
 
     //Character Controller    
     private Rigidbody2D controller;    
-    Vector2 playerVelocity;
+    public Vector2 playerVelocity;
     Vector2 moveDirection;
 
     //GroundCheck
@@ -120,7 +120,7 @@ public class PlayerMovement1 : MonoBehaviour
             //controller.velocity = new Vector2(moveDirection.x * speed * Time.deltaTime, 0);        
             playerVelocity.y += gravity * Time.deltaTime;
             if (playerVelocity.y < 0)
-                playerVelocity.y = 0;
+                playerVelocity.y = -1;
             if (IsGrounded())
             { 
                 controller.velocity = new Vector2(moveDirection.x * speed * Time.deltaTime, playerVelocity.y);
