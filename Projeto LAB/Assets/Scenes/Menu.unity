@@ -315,8 +315,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Gabriel Ver\xE7oza (Storytelling)\r\nTha\xEDs Souza de Jesus  (Design)\r\nGabriel
-    Barrinha (Prog.)\nLaura dos Santos Campos (Design)\nDandara Monike (Design/Storytelling)\nIvih
-    Ribeiro (Design)\r\n\n"
+    Barrinha (Prog.)\nLaura dos Santos Campos (Design)\nDandara Monike (Design/Storytelling)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 365a463370d08bc4a8bc5eb29d7f7f9f, type: 2}
   m_sharedMaterial: {fileID: -2502695048402426624, guid: 365a463370d08bc4a8bc5eb29d7f7f9f, type: 2}
